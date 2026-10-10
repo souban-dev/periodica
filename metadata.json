@@ -1,0 +1,6 @@
+{
+  "name": "Periodic Table of Elements",
+  "description": "An interactive, scientific periodic table with live Bohr electron orbital animations, periodic trend heatmaps, thermal state simulations, and detailed element dossiers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
