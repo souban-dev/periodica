@@ -172,7 +172,7 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
               <button
                 type="button"
                 onClick={onOpenTrendGraph}
-                className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 bg-white hover:bg-white rounded-md border border-slate-200 hover:border-slate-300 transition-colors cursor-pointer shadow-xs active:scale-95"
+                className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 dark:bg-zinc-900 dark:hover:bg-zinc-800 dark:text-white dark:hover:text-white rounded-md border border-slate-200 dark:border-zinc-700 transition-colors cursor-pointer shadow-xs active:scale-95"
                 title="Interactive graphical interpretation of periodic data & trends"
               >
                 <TrendingUp size={13} className="text-amber-500" />
@@ -183,10 +183,10 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
             <button
               type="button"
               onClick={onOpenComparator}
-              className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 bg-white hover:bg-white rounded-md border border-slate-200 hover:border-slate-300 transition-colors cursor-pointer shadow-xs active:scale-95"
+              className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 dark:bg-zinc-900 dark:hover:bg-zinc-800 dark:text-white dark:hover:text-white rounded-md border border-slate-200 dark:border-zinc-700 transition-colors cursor-pointer shadow-xs active:scale-95"
               title="Side-by-side comparative laboratory"
             >
-              <Scale size={13} className="text-zinc-600 dark:text-zinc-400" />
+              <Scale size={13} className="text-zinc-600 dark:text-zinc-300" />
               <span>Compare</span>
             </button>
           </div>
