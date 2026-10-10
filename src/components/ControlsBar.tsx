@@ -74,7 +74,7 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
               PERIODICA
             </span>
             <span className="text-[10px] font-mono font-semibold text-zinc-700 bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700 px-1.5 py-0.5 rounded-md border border-zinc-200 transition-colors duration-300">
-              118 ELEMENTS · IUPAC based
+              118 ELEMENTS · IUPAC
             </span>
           </div>
 
@@ -169,10 +169,12 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
             )}
 
             {onOpenTrendGraph && (
-              <button>
+              <button
                 type="button"
                 onClick={onOpenTrendGraph}
                 className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-slate-700 bg-white hover:bg-white rounded-md border border-slate-200 hover:border-slate-300 dark:bg-zinc-900/90 dark:border-zinc-800 dark:text-zinc-200 dark:hover:text-white dark:hover:bg-zinc-800 transition-colors cursor-pointer shadow-xs active:scale-95"
+                title="Interactive graphical interpretation of periodic data & trends"
+              >
                 <TrendingUp size={13} className="text-amber-500" />
                 <span>Graph Analysis</span>
               </button>
@@ -182,6 +184,7 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
               type="button"
               onClick={onOpenComparator}
               className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-slate-700 bg-white hover:bg-white rounded-md border border-slate-200 hover:border-slate-300 dark:bg-zinc-900/90 dark:border-zinc-800 dark:text-zinc-200 dark:hover:text-white dark:hover:bg-zinc-800 transition-colors cursor-pointer shadow-xs active:scale-95"
+              title="Side-by-side comparative laboratory"
             >
               <Scale size={13} className="text-zinc-600 dark:text-zinc-400" />
               <span>Compare</span>
