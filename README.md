@@ -4,7 +4,7 @@ An interactive, scientific periodic table web application featuring all 118 chem
 
 ---
 
-## 📁 Project Architecture & File Organization
+## Project Architecture & File Organization
 
 This project is organized into clean, modular directories so that any developer can easily locate and update code, styles, or scientific data without friction:
 
@@ -53,7 +53,7 @@ src/
 
 ---
 
-## 🛠️ How to Make Common Changes
+## How to Make Common Changes
 
 ### 1. Changing the Footer Text or Attribution
 - Open **`src/components/Footer.tsx`**.
@@ -85,7 +85,7 @@ src/
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 - **Framework**: React 19 + TypeScript + Vite
 - **Styling**: Tailwind CSS 4
 - **Icons**: Lucide React
