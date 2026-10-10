@@ -169,26 +169,23 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
             )}
 
             {onOpenTrendGraph && (
-  <button
-    type="button"
-    onClick={onOpenTrendGraph}
-    className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-white hover:text-white bg-slate-800 hover:bg-slate-700 rounded-md border border-slate-700 dark:bg-zinc-800 dark:border-zinc-700 dark:text-white dark:hover:text-white dark:hover:bg-zinc-700 transition-all cursor-pointer shadow-xs"
-    title="Graph Analysis"
-  >
-    <TrendingUp size={13} className="text-white" />
-    <span>Graph Analysis</span>
-  </button>
-)}
+              <button
+                type="button"
+                onClick={onOpenTrendGraph}
+                className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-slate-700 bg-white hover:bg-white rounded-md border border-slate-200 hover:border-slate-300 dark:bg-zinc-900/90 dark:border-zinc-800 dark:text-zinc-200 dark:hover:text-white dark:hover:bg-zinc-800 transition-colors cursor-pointer shadow-xs active:scale-95"
+                <TrendingUp size={13} className="text-amber-500" />
+                <span>Graph Analysis</span>
+              </button>
+            )}
 
-<button
-  type="button"
-  onClick={onOpenComparator}
-  className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-white hover:text-white bg-slate-800 hover:bg-slate-700 rounded-md border border-slate-700 dark:bg-zinc-800 dark:border-zinc-700 dark:text-white dark:hover:text-white dark:hover:bg-zinc-700 transition-all cursor-pointer shadow-xs"
-  title="Compare"
->
-  <Scale size={13} className="text-white" />
-  <span>Compare</span>
-</button>
+            <button
+              type="button"
+              onClick={onOpenComparator}
+              className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-slate-700 bg-white hover:bg-white rounded-md border border-slate-200 hover:border-slate-300 dark:bg-zinc-900/90 dark:border-zinc-800 dark:text-zinc-200 dark:hover:text-white dark:hover:bg-zinc-800 transition-colors cursor-pointer shadow-xs active:scale-95"
+            >
+              <Scale size={13} className="text-zinc-600 dark:text-zinc-400" />
+              <span>Compare</span>
+            </button>
           </div>
 
           <div className="h-4 w-px bg-slate-200 dark:bg-zinc-800 shrink-0 hidden lg:block" aria-hidden="true" />
@@ -352,7 +349,7 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
                     <button
                       type="button"
                       onClick={onOpenTrendGraph}
-                      className="flex items-center gap-1.5 px-2.5 py-1 rounded-md border text-xs font-mono font-medium transition-all cursor-pointer shadow-xs active:scale-95 bg-slate-50 dark:bg-[#121316] border-slate-200 dark:border-[#292c35] text-slate-700 dark:text-zinc-200 hover:bg-slate-100 dark:hover:bg-[#22252c]"
+                      className="flex items-center gap-1.5 px-2.5 py-1 rounded-md border text-xs font-mono font-medium transition-all cursor-pointer shadow-xs active:scale-95 bg-white hover:bg-white border-slate-200 hover:border-slate-300 dark:bg-[#121316] dark:border-[#292c35] text-slate-700 hover:text-slate-700 dark:text-zinc-200 dark:hover:text-white dark:hover:bg-[#22252c]"
                       title="Open interactive graphical interpretation & curve analysis"
                     >
                       <TrendingUp size={13} className="text-amber-500" />
