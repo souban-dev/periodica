@@ -55,28 +55,21 @@ src/
 
 ## How to Make Common Changes
 
-### 1. Changing the Footer Text or Attribution
-- Open **`src/components/Footer.tsx`**.
-- To change the author name, update the `authorName` prop in `App.tsx` (e.g. `<Footer authorName="Your Name" />`) or directly edit the text in `Footer.tsx`:
-  ```tsx
-  The website is designed and developed by <span className="font-semibold text-slate-900 dark:text-white">Souban Chakraborty</span>
-  ```
-
-### 2. Editing Element Data (Atomic Masses, Configurations, Discovery, etc.)
+### 1. Editing Element Data (Atomic Masses, Configurations, Discovery, etc.)
 - Elements 1–40: **`src/data/elementsPart1.ts`**
 - Elements 41–80: **`src/data/elementsPart2.ts`**
 - Elements 81–118: **`src/data/elementsPart3.ts`**
 - All element objects conform to the TypeScript interface `ElementData` defined in **`src/types/element.ts`**.
 
-### 3. Modifying Color Schemes & Categories
+### 2. Modifying Color Schemes & Categories
 - Category colors, dark mode text accents, and borders are defined in **`src/data/categories.ts`**.
 - State-of-matter definitions (melting / boiling temperature logic) are located in **`src/data/states.ts`**.
 
-### 4. Adjusting the Mobile Layout & Controls
+### 3. Adjusting the Mobile Layout & Controls
 - The mobile floating quick-action bar is located in **`src/components/MobileElementBar.tsx`**.
 - The main table responsive zoom/pinch controls are located in **`src/components/PeriodicTableGrid.tsx`**.
 
-### 5. Modifying Scientific Studios
+### 4. Modifying Scientific Studios
 - **Quantum Wavefunctions**: `src/components/QuantumOrbitalStudio.tsx` & `src/components/Real3DOrbitalCanvas.tsx`
 - **Electrochemical Series**: `src/components/ElectrochemistryLab.tsx`
 - **Radioactive Decay & Isotopes**: `src/components/NuclearStudio.tsx`
