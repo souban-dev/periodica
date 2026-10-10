@@ -169,7 +169,7 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
             )}
 
             {onOpenTrendGraph && (
-              <button
+              <button>
                 type="button"
                 onClick={onOpenTrendGraph}
                 className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-slate-700 bg-white hover:bg-white rounded-md border border-slate-200 hover:border-slate-300 dark:bg-zinc-900/90 dark:border-zinc-800 dark:text-zinc-200 dark:hover:text-white dark:hover:bg-zinc-800 transition-colors cursor-pointer shadow-xs active:scale-95"
