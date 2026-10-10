@@ -74,7 +74,7 @@ export const ControlsBar: React.FC<ControlsBarProps> = ({
               PERIODICA
             </span>
             <span className="text-[10px] font-mono font-semibold text-zinc-700 bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700 px-1.5 py-0.5 rounded-md border border-zinc-200 transition-colors duration-300">
-              118 ELEMENTS · IUPAC
+              118 ELEMENTS · IUPAC based
             </span>
           </div>
 
